@@ -1,0 +1,11 @@
+{
+  "port": 8081,
+  "rules": [{
+    "matches":"/foo/*",
+    "target-host":"127.0.0.1:8888"
+  },{
+    "matches":"/bar/*",
+    "target-host":"www.bensler.com",
+    "target-path":"bubbles"
+  }]
+}
